@@ -42,6 +42,7 @@ public class CoffeeManager implements CoffeeService {
 		coffeeDao.add(coffee);
 	}
 
+	// Hangi malzemeden kaç doz kullanildigini hesaplayan metod
 	private void getIngredients(Coffee coffee) {
 		List<String> ingredients = new ArrayList<String>();
 		for (String string : coffee.getIngredient()) {
