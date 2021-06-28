@@ -36,6 +36,11 @@ public class Main {
 
 		System.out.println("Teşekkürler kahveniz hazırlanıyor.");
 
+		Thread.sleep(1000);
+		Coffee coffee = coffeeManager.getById(id);
+
+		coffeeManager.enjoyYourCoffee(coffee);
+
 		
 	}
 
