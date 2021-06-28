@@ -15,3 +15,7 @@ Kahve Sipariş Sistemi<a name="TOP"></a>
 	Bu pakette kullanıcının etkileşim kurduğu katman. DataAccess katmanıyla haberleşip verileri çeker ve 
 	kullanıcıya yani Console a aktarır. DataAccess de kullanılar kodlara zayıf bağlıdır çünkü ileride 
 	başka bir YCoffeeDao eklendiğinde bu katmanın etkilenmemesi için.
+# Console Package #
+	
+	Bu pakette kullanıcının sipariş verdiği paket. Örneğin bir internet sitesinin arayüzü gibi düşünülebilir.
+	Business katmanıyla haberleşerek gerekli operasyonları gerçekleştirmeye yarayan kodlar bu katmanda bulunur.
