@@ -26,8 +26,8 @@ public class CoffeeManager implements CoffeeService {
 
 	@Override
 	public Coffee getById(int id) {
-		
-		return null;
+
+		return coffeeDao.get(id);
 	}
 
 	@Override

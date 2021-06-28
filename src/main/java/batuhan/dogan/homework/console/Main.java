@@ -33,7 +33,8 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Lütfen içmek istediğiniz kahvenin numarasını giriniz: ");
 		int id = scanner.nextInt();
-		
+
+		System.out.println("Teşekkürler kahveniz hazırlanıyor.");
 
 		
 	}
